@@ -1,0 +1,4 @@
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.AssemblyInfoInputs.cache
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.AssemblyInfo.cs
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.csproj.CoreCompileInputs.cache

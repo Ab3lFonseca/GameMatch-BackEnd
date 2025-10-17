@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\GameMatch.Api",
+    "\\src\\GameMatch.Core",
+    "\\src\\GameMatch.Core\\Models",
+    "\\src\\GameMatch.Infrastructure",
+    "\\src\\GameMatch.Services"
+  ],
+  "SelectedNode": "\\src\\GameMatch.Core\\Models",
+  "PreviewInSolutionExplorer": false
+}
