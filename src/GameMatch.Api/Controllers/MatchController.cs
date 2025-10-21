@@ -6,7 +6,7 @@ namespace GameMatch.Api.Controllers;
 
 [ApiController]
 [Route("api/match")]
-[Authorize]
+//[Authorize]
 public class MatchController : ControllerBase
 {
     private readonly MatchService _match;

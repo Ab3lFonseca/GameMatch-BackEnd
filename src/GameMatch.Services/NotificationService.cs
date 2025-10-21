@@ -1,4 +1,4 @@
-using GameMatch.Core.Models;
+﻿using GameMatch.Core.Models;
 using GameMatch.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,17 +7,64 @@ namespace GameMatch.Services;
 public class NotificationService
 {
     private readonly AppDb _db;
-    public NotificationService(AppDb db) { _db = db; }
 
-    public async Task NotifySpotOpen(int groupId, int positionId)
+    public NotificationService(AppDb db)
     {
-        var pos = await _db.Positions.FindAsync(positionId);
-        if (pos == null) return;
-        var users = await _db.Users.Where(u => u.Skills != null && u.Skills.ToLower().Contains(pos.Name.ToLower())).ToListAsync();
-        foreach (var u in users)
+        _db = db;
+    }
+
+    /// <summary>
+    /// Cria uma nova notificação para um usuário.
+    /// </summary>
+    public async Task CreateAsync(int userId, string message, string type = "Info")
+    {
+        var notification = new Notification
         {
-            _db.Notifications.Add(new Notification { UserId = u.Id, Type = "spot-open", Payload = $"{{"groupId":{groupId},"positionId":{positionId}}}" });
-        }
+            UserId = userId,
+            Message = message,
+            Type = type,
+            CreatedAt = DateTime.UtcNow,
+            Read = false
+        };
+
+        _db.Notifications.Add(notification);
+        await _db.SaveChangesAsync();
+    }
+
+    /// <summary>
+    /// Retorna todas as notificações de um usuário.
+    /// </summary>
+    public async Task<List<Notification>> GetByUserAsync(int userId)
+    {
+        return await _db.Notifications
+            .Where(n => n.UserId == userId)
+            .OrderByDescending(n => n.CreatedAt)
+            .ToListAsync();
+    }
+
+    /// <summary>
+    /// Marca uma notificação como lida.
+    /// </summary>
+    public async Task MarkAsReadAsync(int notificationId)
+    {
+        var notif = await _db.Notifications.FindAsync(notificationId);
+        if (notif == null) return;
+
+        notif.Read = true;
+        await _db.SaveChangesAsync();
+    }
+
+    /// <summary>
+    /// Remove notificações antigas (padrão: 30 dias).
+    /// </summary>
+    public async Task CleanupOldAsync(int days = 30)
+    {
+        var cutoff = DateTime.UtcNow.AddDays(-days);
+        var old = await _db.Notifications
+            .Where(n => n.CreatedAt < cutoff)
+            .ToListAsync();
+
+        _db.Notifications.RemoveRange(old);
         await _db.SaveChangesAsync();
     }
 }

@@ -20,10 +20,11 @@ public class Position
 {
     public int Id { get; set; }
     public string Name { get; set; } = default!;
+    public string? Characteristics { get; set; }
     public int SportId { get; set; }
     public Sport Sport { get; set; } = default!;
-    public string? Characteristics { get; set; }
 }
+
 public class GroupPosition
 {
     public int Id { get; set; }
@@ -52,13 +53,4 @@ public class Event
     public Group Group { get; set; } = default!;
     public DateTime StartAt { get; set; }
     public string? Place { get; set; }
-}
-public class Notification
-{
-    public int Id { get; set; }
-    public int UserId { get; set; }
-    public string Type { get; set; } = default!; // match, invite, spot-open
-    public string Payload { get; set; } = "{}";
-    public bool Read { get; set; } = false;
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 }

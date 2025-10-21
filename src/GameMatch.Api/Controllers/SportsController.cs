@@ -9,7 +9,7 @@ namespace GameMatch.Api.Controllers;
 
 [ApiController]
 [Route("api/sports")]
-[Authorize] // ou remova se quiser deixar público
+//[Authorize] // ou remova se quiser deixar público
 public class SportsController : ControllerBase
 {
     private readonly AppDb _db;

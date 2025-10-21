@@ -1,39 +1,52 @@
 using GameMatch.Core.Models;
+using GameMatch.Infrastructure;
 using GameMatch.Services;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace GameMatch.Api.Controllers;
 
 [ApiController]
-[Route("api/groups")]
-[Authorize]
+[Route("api/[controller]")]
 public class GroupsController : ControllerBase
 {
-    private readonly GroupService _groups;
-    public GroupsController(GroupService groups) { _groups = groups; }
+    private readonly GroupService _groupService;
 
-    public record CreateGroupDto(string Name, string? Description, int MaxMembers);
-    public record DefinePositionDto(int PositionId, int Required, int OpenSpots);
+    public GroupsController(GroupService groupService)
+    {
+        _groupService = groupService;
+    }
+
+    // DTO usado para criar grupos
+    public class CreateGroupDto
+    {
+        public string Name { get; set; } = default!;
+        public string? Description { get; set; }
+        public int SportId { get; set; }         // ✅ adicionamos o campo SportId
+        public int MaxMembers { get; set; }
+    }
 
     [HttpPost]
-    public async Task<IActionResult> Create(CreateGroupDto dto)
+    public async Task<IActionResult> Create([FromBody] CreateGroupDto dto)
     {
-        // OwnerId virá do token; para simplificar aqui só recebe via header x-user-id (ou adapte)
-        var ownerIdHeader = HttpContext.Request.Headers["x-user-id"].FirstOrDefault();
-        if (string.IsNullOrWhiteSpace(ownerIdHeader)) return BadRequest(new { mensagem = "x-user-id header obrigatório" });
-        var ownerId = int.Parse(ownerIdHeader);
-        var g = await _groups.Create(dto.Name, dto.Description, dto.MaxMembers, ownerId);
-        return Ok(g);
+        // ✅ Certifique-se de não ter duas variáveis com o mesmo nome
+        var ownerId = 1; // substitua por ID do usuário autenticado quando JWT estiver pronto
+
+        var group = await _groupService.Create(
+            dto.Name,
+            dto.Description,
+            dto.SportId,
+            dto.MaxMembers,
+            ownerId
+        );
+
+        return Created($"/api/groups/{group.Id}", group);
     }
 
     [HttpGet]
-    public async Task<IActionResult> List() => Ok(await _groups.List());
-
-    [HttpPost("{id:int}/positions")]
-    public async Task<IActionResult> DefinePositions(int id, List<DefinePositionDto> positions)
+    public async Task<IActionResult> List([FromServices] AppDb db)
     {
-        await _groups.DefinePositions(id, positions.Select(p => (p.PositionId, p.Required, p.OpenSpots)));
-        return Ok();
+        var groups = await db.Groups.Include(g => g.Sport).ToListAsync();
+        return Ok(groups);
     }
 }

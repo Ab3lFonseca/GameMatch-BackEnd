@@ -15,6 +15,8 @@ public class AppDb : DbContext
     public DbSet<Event> Events => Set<Event>();
     public DbSet<Notification> Notifications => Set<Notification>();
     public DbSet<Sport> Sports => Set<Sport>();
+  
+
 
     protected override void OnModelCreating(ModelBuilder b)
     {

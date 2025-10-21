@@ -1,4 +1,12 @@
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\bin\Debug\net8.0\GameMatch.Core.deps.json
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\bin\Debug\net8.0\GameMatch.Core.dll
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\bin\Debug\net8.0\GameMatch.Core.pdb
 F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.GeneratedMSBuildEditorConfig.editorconfig
 F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.AssemblyInfoInputs.cache
 F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.AssemblyInfo.cs
 F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.csproj.CoreCompileInputs.cache
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.sourcelink.json
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.dll
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\refint\GameMatch.Core.dll
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\GameMatch.Core.pdb
+F:\AbelFonseca\Área de Trabalho\gamematch-backend-clean\src\GameMatch.Core\obj\Debug\net8.0\ref\GameMatch.Core.dll

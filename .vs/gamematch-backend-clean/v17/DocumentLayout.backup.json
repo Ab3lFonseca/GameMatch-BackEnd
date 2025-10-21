@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Controllers\\GroupsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Api\\Controllers\\GroupsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\NotificationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Services\\NotificationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\GroupService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Services\\GroupService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Core\\Models\\Group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Core\\Models\\Notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Infrastructure\\AppDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Infrastructure\\AppDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\GameMatch.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Core\\GameMatch.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Core\\Models\\Enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Core\\Models\\Sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Core\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Controllers\\SportsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Api\\Controllers\\SportsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\MatchService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GameMatch.Services\\MatchService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Services\\NotificationService.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\NotificationService.cs",
+              "RelativeToolTip": "src\\GameMatch.Services\\NotificationService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:36:21.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Api\\Controllers\\GroupsController.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "src\\GameMatch.Api\\Controllers\\GroupsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:35:11.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Core\\Models\\Notification.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Notification.cs",
+              "RelativeToolTip": "src\\GameMatch.Core\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:31:13.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameMatch.Core.csproj",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\GameMatch.Core.csproj",
+              "RelativeDocumentMoniker": "src\\GameMatch.Core\\GameMatch.Core.csproj",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\GameMatch.Core.csproj",
+              "RelativeToolTip": "src\\GameMatch.Core\\GameMatch.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T17:26:47.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Core\\Models\\User.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\User.cs",
+              "RelativeToolTip": "src\\GameMatch.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:22:33.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SportsController.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Controllers\\SportsController.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Api\\Controllers\\SportsController.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Controllers\\SportsController.cs",
+              "RelativeToolTip": "src\\GameMatch.Api\\Controllers\\SportsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T11:49:29.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Group.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Core\\Models\\Group.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Group.cs",
+              "RelativeToolTip": "src\\GameMatch.Core\\Models\\Group.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T11:45:53.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sport.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Sport.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Core\\Models\\Sport.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Sport.cs",
+              "RelativeToolTip": "src\\GameMatch.Core\\Models\\Sport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T11:45:34.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MatchService.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\MatchService.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Services\\MatchService.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\MatchService.cs",
+              "RelativeToolTip": "src\\GameMatch.Services\\MatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T11:31:00.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Services\\GroupService.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\GroupService.cs",
+              "RelativeToolTip": "src\\GameMatch.Services\\GroupService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T11:28:00.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Api\\Program.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Api\\Program.cs",
+              "RelativeToolTip": "src\\GameMatch.Api\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T11:25:56.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Core\\Models\\Enums.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Core\\Models\\Enums.cs",
+              "RelativeToolTip": "src\\GameMatch.Core\\Models\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:22:37.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Services\\AuthService.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Services\\AuthService.cs",
+              "RelativeToolTip": "src\\GameMatch.Services\\AuthService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T11:27:17.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDb.cs",
+              "DocumentMoniker": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Infrastructure\\AppDb.cs",
+              "RelativeDocumentMoniker": "src\\GameMatch.Infrastructure\\AppDb.cs",
+              "ToolTip": "F:\\AbelFonseca\\\u00C1rea de Trabalho\\gamematch-backend-clean\\src\\GameMatch.Infrastructure\\AppDb.cs",
+              "RelativeToolTip": "src\\GameMatch.Infrastructure\\AppDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T11:27:01.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
