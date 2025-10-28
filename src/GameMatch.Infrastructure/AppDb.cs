@@ -1,4 +1,5 @@
 using GameMatch.Core.Models;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace GameMatch.Infrastructure;
@@ -15,7 +16,9 @@ public class AppDb : DbContext
     public DbSet<Event> Events => Set<Event>();
     public DbSet<Notification> Notifications => Set<Notification>();
     public DbSet<Sport> Sports => Set<Sport>();
-  
+    public DbSet<Post> Posts { get; set; } = null!;
+
+
 
 
     protected override void OnModelCreating(ModelBuilder b)

@@ -5,12 +5,10 @@
     "\\src\\GameMatch.Api",
     "\\src\\GameMatch.Api\\Controllers",
     "\\src\\GameMatch.Core",
-    "\\src\\GameMatch.Core\\bin\\Debug",
-    "\\src\\GameMatch.Core\\bin\\Debug\\net8.0",
     "\\src\\GameMatch.Core\\Models",
     "\\src\\GameMatch.Infrastructure",
     "\\src\\GameMatch.Services"
   ],
-  "SelectedNode": "\\src\\GameMatch.Core\\Models\\Enums.cs",
+  "SelectedNode": "\\GameMatch.sln",
   "PreviewInSolutionExplorer": false
 }
